@@ -82,6 +82,11 @@
             "ergebnis/composer-normalize": true
         }
     },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "6.3.x-dev"
+        }
+    },
     "scripts": {
         "cs": [
             "@php vendor/bin/php-cs-fixer fix --allow-risky=yes"
